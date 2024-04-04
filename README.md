@@ -30,7 +30,16 @@ Replica of these libc functions:
 
 and some supplementary functions :
 
-| function name | ft_substr |
+| Function name | ft_substr |
 | :------------ | :-------- |
-| Paramètres | s: La chaîne de laquelle extraire la nouvelle chaîne. start: L’index de début de la nouvelle chaîne dans la chaîne ’s’. len: La taille maximale de la nouvelle chaîne | 
+| Prototype | ```char *ft_substr(char const *s, unsigned int start, unsigned int len)``` | 
+| Parameters | s: The string from which to extract the new string. start: The start index of the new string in the string 's'. len: The maximum size of the new string | 
+| Return value | The new string. NULL is allocation failed. |
+| Description | Allocate (with malloc) and return a string from the 's' string. This new string starts at the 'start' index and has for maximal size 'len'. | 
+
+| Function name | ft_strjoin |
+| :------------ | :-------- |
+| Parameters |  | s1: The prefix string. s2: The suffix string. | 
+| Return value | The new string. NULL is allocation failed. |
+| Description | Allocate (with malloc) and return a string from the 's' string. This new string starts at the 'start' index and has for maximal size 'len'. | 
 
