@@ -32,8 +32,5 @@ and some supplementary functions :
 
 | function name | ft_substr |
 | :------------ | :-------- |
-| Paramètres | s: La chaîne de laquelle extraire la nouvelle
-chaîne.
-start: L’index de début de la nouvelle chaîne dans
-la chaîne ’s’.
-len: La taille maximale de la nouvelle chaîne | 
+| Paramètres | s: La chaîne de laquelle extraire la nouvelle chaîne. start: L’index de début de la nouvelle chaîne dans la chaîne ’s’. len: La taille maximale de la nouvelle chaîne | 
+
